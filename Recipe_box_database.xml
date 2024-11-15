@@ -1,0 +1,4621 @@
+<?xml version="1.0"?>
+<RECIPE_BOX_DATABASE>
+	<CUSTOMERS>
+		<CUSTOMER idc = "c1">
+			<FULL_NAME>
+				<FORENAME>
+				Jean-Michel
+				</FORENAME>
+				<NAME>
+				Dupont
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			JeanmichelDupont@email.com
+			</EMAIL>
+			<PHONE>
+			0689782711
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c2">
+			<FULL_NAME>
+				<FORENAME>
+				Hugo
+				</FORENAME>
+				<NAME>
+				Lambert
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			HugoLambert@email.com
+			</EMAIL>
+			<PHONE>
+			0612345678
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c3">
+			<FULL_NAME>
+				<FORENAME>
+				Léa
+				</FORENAME>
+				<NAME>
+				Dupont
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			LéaDupont@email.com
+			</EMAIL>
+			<PHONE>
+			0723456789
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c4">
+			<FULL_NAME>
+				<FORENAME>
+				Gabriel
+				</FORENAME>
+				<NAME>
+				Dubois
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			GabrielDubois@email.com
+			</EMAIL>
+			<PHONE>
+			0654321098
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c5">
+			<FULL_NAME>
+				<FORENAME>
+				Clara
+				</FORENAME>
+				<NAME>
+				Moreau
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			ClaraMoreau@email.com
+			</EMAIL>
+			<PHONE>
+			0765432109
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c6">
+			<FULL_NAME>
+				<FORENAME>
+				Théo
+				</FORENAME>
+				<NAME>
+				Martin
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			ThéoMartin@email.com
+			</EMAIL>
+			<PHONE>
+			0678901234
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c7">
+			<FULL_NAME>
+				<FORENAME>
+				Manon
+				</FORENAME>
+				<NAME>
+				Girard
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			ManonGirard@email.com
+			</EMAIL>
+			<PHONE>
+			0789012345
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c8">
+			<FULL_NAME>
+				<FORENAME>
+				Lucas
+				</FORENAME>
+				<NAME>
+				Lefebvre
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			LucasLefebvre@email.com
+			</EMAIL>
+			<PHONE>
+			0698765432
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c9">
+			<FULL_NAME>
+				<FORENAME>
+				Emma
+				</FORENAME>
+				<NAME>
+				Leroy
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			EmmaLeroy@email.com
+			</EMAIL>
+			<PHONE>
+			0787654321
+			</PHONE>
+		</CUSTOMER>
+		<CUSTOMER idc = "c10">
+			<FULL_NAME>
+				<FORENAME>
+				Maxime
+				</FORENAME>
+				<NAME>
+				Laurent
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			MaximeLaurent@email.com
+			</EMAIL>
+			<PHONE>
+			0621436587
+			</PHONE>
+		</CUSTOMER>
+	</CUSTOMERS>
+
+	<RECIPES>
+		<RECIPE idr = "r1">
+			<RECIPE_NAME> Penne à la crème, lardons et épinards </RECIPE_NAME>
+			<CATEGORY> Recettes italiennes </CATEGORY>
+			<DESCRIPTION> Envie d'une recette gourmande mais simple à réaliser? Avec ce plat de pâtes, rien de plus facile :
+						tous les ingrédients cuisent en même temps ! Vous y trouverez des portobellos, des épinards et, pour la pointe de gourmandise:
+						du mascarpone.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF_Y23_R219_W48_FR_TFR29804795-1_Main_high-20fcf8c9.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 20 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 35 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Gluten
+				</ALLERGEN>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait(contient du lactose)
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Portobello </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Echalote </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lardons fumés </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 35 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Penne </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 90 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epinards </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Mascarpone </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 25 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epices italiennes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.33 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Fromage râpé à l'italienne </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 10 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Cube de bouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2920 </CALORIES_kJ>
+				<CALORIES_kcal> 698 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 31.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 14.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 73.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 6.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 27.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.59 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Essuie-tout
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une grande casserole d’eau à ébullition. Émiettez ¼ de cube de bouillon par personne au-dessus. 
+
+				2.
+				Nettoyez les portobellos avec un essuie-tout humide et coupez-les en tranches.
+				Épluchez l'échalote et l'ail et coupez l'échalote en quartiers.
+
+				3.
+				Placez les morceaux d'échalote et l'ail dans le robot et hachez-les 10 secondes | vitesse moyenne-haute. 
+				Ajoutez un filet d’huile d’olive par-dessus et les lardons. Faites-les rissoler dans le robot 7 min | 120°C | mode sens inverse | vitesse minimum.
+				Pendant ce temps, faites cuire les penne 10-12 min dans la casserole de bouillon.
+				Égouttez-les et réservez-les sans couvercle.
+
+				4.
+				Ajoutez les épinards petit à petit dans la cuve du robot à 120°C | mode sens inverse | vitesse minimum et faites mijoter 2 min.
+				Ajoutez ensuite les portobellos et faites de nouveau cuire 8 min | 120°C | mode sens inverse | vitesse minimum.
+
+				5.
+				Mélangez les penne avec les légumes de la cuve du robot. 
+				Ajoutez le mascarpone, ⅓ sachet d'épices italiennes par personne et le fromage râpé.
+				
+				6.
+				Répartissez les pâtes aux épinards dans les assiettes. 
+				Rectifiez l’assaisonnement selon votre goût.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				8
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r2">
+			<RECIPE_NAME> Gnocchi al funghi et burrata </RECIPE_NAME>
+			<CATEGORY> Recettes italiennes </CATEGORY>
+			<DESCRIPTION> Mais qu’est-ce que le pesto rosso ? Moins connu que le vert, il est au moins aussi savoureux.
+						Réalisé à base de tomates séchées, il donne une délicieuse saveur méditerranéenne à vos réalisations.
+						Vous le dégusterez aujourd’hui avec des gnocchis et une burrata pour la gourmandise.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1024/hellofresh_s3/image/HF_Y23_R292_W49_FR_PFR16511-2_quality_edit_Main_high-de1df4a4.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 15 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 20 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Facile </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Gluten
+				</ALLERGEN>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Anhydride sulfureux et sulfites
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait(contient du lactose)
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epices italiennes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.33 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Champignons de Paris </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 125 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gnocchi </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 200 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Pesto rosso </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 30 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Persil </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Burrata </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 3466 </CALORIES_kJ>
+				<CALORIES_kcal> 828 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 42.4 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 12.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 84.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 7.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 23.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 3.68 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Sauteuse
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Nettoyez les champignons avec un essuie-tout humide, puis coupez-les en fines tranches.
+				Ciselez l'ail.
+
+				2.
+				Faites chauffer un généreux filet d'huile d'olive dans une sauteuse à feu moyen-vif.
+				Ajoutez-y les champignons et faites-les cuire 5-6 min en remuant.
+
+				3.
+				Ajoutez les gnocchi et l'ail à la sauteuse et faites-les dorer 2 min.
+				Baissez le feu, puis ajoutez le pesto rosso et par personne : ⅓ de sachet d'épices italiennes et 60 ml d'eau.
+				Prolongez la cuisson de 2-3 min en remuant, ou jusqu'à ce que la sauce soit nappante. Salez et poivrez.
+				Ciselez le persil et coupez la burrata en deux.
+
+				4.
+				Dressez les gnocchi dans des assiettes creuses.
+				Garnissez d'une moitié de burrata et de persil. Arrosez d'un filet d'huile d'olive si vous le souhaitez.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				11
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r3">
+			<RECIPE_NAME> Risotto de poulet et champignons </RECIPE_NAME>
+			<CATEGORY> Recettes italiennes </CATEGORY>
+			<DESCRIPTION> Le secret du risotto réside dans l’amour et l’attention que vous portez à sa préparation.
+			En le remuant constamment, les grains de riz sont tous parfaitement cuits et l’amidon libéré ce qui donne à ce plat son crémeux et son moelleux.
+			Ajoutez-y un peu de poulet et des champignons, et vous voilà prêt pour régaler toute la famille !
+			Le fromage utilisé dans ce plat contient de la présure animale.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1024/hellofresh_s3/image/HF_Y23_R206_W14_FR_RFR29804439-1_Main_high-ff8c456a.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 20 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 45 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Gluten
+				</ALLERGEN>
+				<ALLERGEN>
+				Anhydride sulfureux et sulfites
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait(contient du lactose)
+				</ALLERGEN>
+				<ALLERGEN>
+				Moutarde
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Echalote </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz pour risotto </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 75 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Champignons de Paris </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 125 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Persil </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Blanc de poulet </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epices italiennes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Fromage frais aux herbes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 25 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Bouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 350 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huilde d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre balsamique blanc ou de riz </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cc </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2663 </CALORIES_kJ>
+				<CALORIES_kcal> 637 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 25.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 8.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 68.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 3.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 33.4 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 4.82 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Poêle
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Préparez le bouillon avec de l’eau chaude.
+				Ciselez finement l’échalote et l’ail.
+				Faites chauffer un filet d'huile d'olive à feu moyen dans une casserole.
+				Faites-y revenir l’échalote 1-2 min, puis ajoutez le riz et la moitié de l'ail.
+				Mélangez 1 min.
+
+				2.
+				Ajoutez le vinaigre balsamique blanc (ou de riz) et ⅓ du bouillon à la casserole.
+				Laissez les grains de riz s’en imbiber lentement. Remuez souvent.
+				Dès que les grains de riz ont absorbé le bouillon, ajoutez-en à nouveau ⅓, puis répétez l’opération avec le reste.
+				Le risotto est cuit dès que les grains sont moelleux à l’extérieur et légèrement croquants à cœur.
+				Au total, comptez environ 20-25 min de cuisson.
+				Ajoutez éventuellement de l’eau pour faire cuire les grains davantage.
+
+				3.
+				Pendant ce temps, nettoyez les champignons avec un essuie-tout humide, puis coupez-les en gros morceaux de 1-2 cm.
+				Effeuillez et ciselez le persil.
+				Recoupez le poulet en tranches de 1-2 cm.
+
+				4.
+				Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif.
+				Faites-y revenir le poulet, les champignons, le reste d'ail, ¼ sachet d'épices italiennes par personne
+				et la moitié du persil 5-8 min, ou jusqu’à ce que la viande soit cuite à cœur et les champignons légèrement dorés.
+				Salez et poivrez.
+
+
+				5.
+				Lorsque le riz est cuit, ajoutez-y le fromage frais aux herbes et la moitié du mélange poulet-champignons.
+				Mélangez jusqu’à ce que le tout soit bien incorporé.
+
+				
+				6.
+				Servez le risotto dans les assiettes. Poivrez-le, selon votre goût.
+				Répartissez le reste de poulet et de champignons par-dessus et saupoudrez du persil restant.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				11
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r4">
+			<RECIPE_NAME> Lasagne al ragù della nonna Gisella </RECIPE_NAME>
+			<CATEGORY> Recettes italiennes </CATEGORY>
+			<DESCRIPTION> Nous vous livrons dans cette recette les secrets des lasagne !
+			Vous les préparerez à l’italienne, avec un ragù alla bolognese comme sait si bien le faire nonna Gisella,
+			et les agrémenterez d’une touche française avec des lardons et une béchamel pour le côté réconfortant.
+			Attention, recette très (très) gourmande.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1024/hellofresh_s3/image/HF211116_R223_W01_FR_BFR29803974-1_KB_Main_remove_parsley_edit_high-a57bcf22.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 35 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 1 </HOURS>
+				<MINUTES> 35 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Oeuf
+				</ALLERGEN>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait(contient du lactose)
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Carotte </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lardons fumés </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 50 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Viande hachée au boeuf </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Chair à saucisse </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Feuille de laurier </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Origan séché </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Chair de tomates </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> paquet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Feuilles de lasagne fraîches </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Fromage râpé à l'italienne </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 20 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Salade </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lait </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 150 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Farine </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 2 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Beurre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 2 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre de vin rouge ou de cidre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 6771 </CALORIES_kJ>
+				<CALORIES_kcal> 1618 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 100.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 43.1 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 104.6 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 25.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 69.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 5.62 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Saladier
+				</UTENSIL>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Plat à four
+				</UTENSIL>
+				<UTENSIL>
+				Spatule
+				</UTENSIL>
+				<UTENSIL>
+				Marmite à soupe ou grande casserole avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Fouet
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Ciselez l’oignon, l’ail et la carotte préalablement épluchés séparément.
+				Plus les morceaux sont petits, plus votre sauce sera fondante (voir CONSEIL).
+				Coupez les lardons en petits morceaux.
+
+				2.
+				Faites dorer les lardons à sec dans une marmite à feu moyen-vif 2-3 min.
+				Ajoutez le bœuf et la chair à saucisse.
+				Faites revenir 4-5 min à feu vif en émiettant les morceaux avec une spatule, puis réservez-les dans un saladier.
+				Remettez la marmite à feu moyen-vif avec un filet d'huile d’olive et ajoutez-y les légumes.
+				Couvrez et faites-les suer 6-8 min. Salez et poivrez.
+				Remuez de temps à autre, puis déglacez avec la moitié du vinaigre de vin rouge (ou vinaigre de cidre).
+
+				3.
+				Ajoutez le laurier, l'origan séché, la chair de tomates et la viande réservée à la marmite.
+				Versez 100 ml d'eau par personne et mélangez.
+				Laissez mijoter 25-30 min à feu doux. Remuez de temps à autre.
+				Préchauffez le four à 190°C (170°C chaleur tournante).
+
+				4.
+				Pendant ce temps, faites fondre 2 cs de beurre par personne dans une casserole à feu moyen et ajoutez 2 cs de farine par personne.
+				Faites-la cuire 2-3 min en remuant.
+				Réduisez le feu et ajoutez ⅓ du lait. Remuez constamment avec un fouet.
+				Lorsqu'il est entièrement absorbé, répétez l’opération avec le reste du lait.
+				Augmentez le feu et laissez bouillir doucement 3-4 min afin que la sauce épaississe.
+				
+				CONSEIL : Ajoutez un peu plus de lait si la béchamel est trop épaisse.
+
+				5.
+				Versez une petite couche de sauce ragù dans un plat à four et recouvrez de feuilles de lasagne.
+				Versez à nouveau de la sauce, une couche de béchamel et saupoudrez d'un peu de fromage râpé.
+				Répétez cette opération jusqu'à épuisement des ingrédients et terminez par une couche de béchamel saupoudrée de fromage.
+				Couvrez le plat d’aluminium, puis enfournez-le 40-50 min, ou jusqu’à ce que la pointe d'un couteau rentre facilement dans les pâtes.
+				Ôtez l'aluminium lorsqu'il reste 20 min de cuisson.
+
+				6.
+				En attendant, faites une vinaigrette en mélangeant un filet d’huile d’olive avec du vinaigre dans un saladier.
+				Salez et poivrez.
+				Juste avant de servir, ajoutez la salade et mélangez.
+				Servez les lasagne (voir CONSEIL) dans les assiettes avec la salade.
+				
+				CONSEIL : Laissez un peu refroidir les lasagne pour qu'elles se tiennent mieux à la découpe.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				10
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r5">
+			<RECIPE_NAME> Spaghetti et ragù bianco de bœuf </RECIPE_NAME>
+			<CATEGORY> Recettes italiennes </CATEGORY>
+			<DESCRIPTION> Aujourd’hui c’est ragù bianco maison ! Un peu d’oignon, d’ail, de poireau et de bœuf haché,
+			le tout mijoté dans une sauce à l’origan séché, à la crème de basilic et au mascarpone et le tour est joué !
+			Un peu de fromage râpé pour couronner le tout et voilà un plat de pâtes gourmand prêt à être dégusté.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1024/hellofresh_s3/image/HF_Y24_R214_W06_FR_QFR29803712-6_Main__3high-846514c7.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait(contient du lactose)
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Spaghetti </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 90 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poireau </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Viande hachée au boeuf </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Origan séché </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.33 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Mascarpone </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 25 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Crème de basilic </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 15 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Fromage râpé à l'italienne </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 10 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Bouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 50 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre balsamique blanc ou de riz </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 3865 </CALORIES_kJ>
+				<CALORIES_kcal> 924 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 51.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 20.1 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 74.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 9.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 37.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.58 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Sauteuse
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Préparez le bouillon avec de l'eau chaude.
+				Portez une casserole d’eau salée à ébullition pour les pâtes.
+				Ciselez l’ail et hachez finement l’oignon.
+				Coupez le poireau en fines demi-lunes.
+				Faites cuire les spaghetti 10-12 min.
+				Réservez 1-2 cs d’eau de cuisson par personne, puis égouttez-les.
+
+				2.
+				Faites chauffer un filet d’huile d’olive dans une grande sauteuse à feu moyen-vif.
+				Faites-y revenir l'oignon, l'ail et le poireau 3-4 min.
+				Déglacez avec le vinaigre balsamique blanc (ou du vin blanc si vous en avez).
+				Ajoutez le bœuf haché ⅓ sachet d'origan séché par personne.
+				Faites revenir 4-6 min en émiettant bien la viande avec une cuillère en bois.
+				Salez et poivrez. 
+
+				3.
+				À feu moyen-doux, ajoutez le bouillon et la moitié du mascarpone à la sauteuse.
+				Faites mijoter 3-5 min.
+				Ajoutez les spaghetti, la crème de basilic, le reste de mascarpone et l’eau de cuisson.
+				Faites réchauffer le tout 1-2 min.
+
+				4.
+				Servez les pâtes dans des assiettes creuses.
+				Poivrez et saupoudrez de fromage râpé.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				10
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r6">
+			<RECIPE_NAME> Curry d'épinards et cajous croquantes </RECIPE_NAME>
+			<CATEGORY> Recettes asiatiques </CATEGORY>
+			<DESCRIPTION> Saviez-vous que l’utilisation d’épinards dans les plats de curry est une pratique courante dans la cuisine indienne ?
+			En effet, les épinards sont très polyvalents et apportent une texture et une saveur unique aux plats de curry, ce qui en fait un choix idéal pour les végétariens.
+			Aujourd’hui, cuisinez-les avec des cajous croquantes, un riz au curcuma et un œuf au plat.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF_Y23_R207_W15_FR_RNL29804546-1_Main_high-af5aa804.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 30 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Fruits à coque
+				</ALLERGEN>
+				<ALLERGEN>
+				Moutarde
+				</ALLERGEN>
+				<ALLERGEN>
+				Céleri
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 75 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Curcuma en poudre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Noix de cajou concassées </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Curry en poudre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Noix de coco râpée</INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lait de coco </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 50 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Concentré de tomates </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epinards</INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Coriandre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Bouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 200 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oeuf </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de tournesol </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 3181 </CALORIES_kJ>
+				<CALORIES_kcal> 760 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 42.1 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 16.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 73.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 6.6 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 20 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.51 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Sauteuse ou wok
+				</UTENSIL>
+				<UTENSIL>
+				Poêle
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Préparez le bouillon avec de l'eau chaude.
+				Coupez l’oignon en fines demi-lunes et ciselez l'ail.
+
+				2.
+				Faites chauffer un filet d'huile d’olive dans une casserole à feu moyen et faites-y revenir l’oignon 2 min.
+				Ajoutez ¼ sachet de curcuma par personne et prolongez la cuisson de 1 min.
+				Ajoutez le riz et le bouillon, puis faites cuire 12-15 min à couvert. Versez éventuellement un peu d’eau si le riz s'assèche trop vite. 
+				Réservez sans couvercle.
+
+				3.
+				Pendant ce temps, faites chauffer un wok ou une sauteuse à feu moyen-vif et faites-y dorer les noix de cajou à sec 1-2 min.
+				Ajoutez la noix de coco râpée et poursuivez la cuisson de 1 min.
+				Réservez le tout hors de la sauteuse.
+
+				4.
+				Laissez refroidir le wok 2 min pour éviter que l’huile ne brûle. 
+				Faites-y ensuite chauffer l’huile de tournesol, puis l’ail et, par personne : 
+				½ sachet de curry (ça pique ! Dosez-le selon votre goût) et ¼ sachet de concentré de tomates 1-2 min à feu moyen.
+				Ajoutez le lait de coco (voir CONSEIL), salez et poivrez, puis portez le curry à ébullition.
+				
+				CONSEIL : Secouez bien la brique de lait de coco avant de l'utiliser afin de dissoudre les grumeaux.
+				
+				5.
+				En attendant, faites chauffer un filet d’huile d’olive dans une poêle et faites-y cuire un œuf au plat par personne.
+				Déchirez les épinards au-dessus du wok, laissez réduire en remuant, puis faites mijoter 1-2 min.
+				Effeuillez la coriandre.
+				
+				6.
+				Servez le riz et les épinards dans les assiettes, puis disposez l’œuf au plat par-dessus.
+				Garnissez de noix de cajou, de coriandre et de noix de coco râpée.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				10
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r7">
+			<RECIPE_NAME> Chow mein : nouilles sautées aux crevettes </RECIPE_NAME>
+			<CATEGORY> Recettes asiatiques </CATEGORY>
+			<DESCRIPTION> Cuisinez les nouilles à la façon sucrée-salée dans ce plat à base de crevettes ! 
+			Revenues avec le poireau et l’ail dans une sauce asiatique aux notes sucrées, elles sont ensuite saupoudrées de coriandre fraîche. 
+			C’est une régalade assurée !
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF_Y23_R202_W10_FR_QFR20161834-6_Main_low-7ebfdc0a.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 15 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 20 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Facile </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Crustacés
+				</ALLERGEN>
+				<ALLERGEN>
+				Soja
+				</ALLERGEN>
+				<ALLERGEN>
+				Gluten
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Nouilles de blé </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Crevettes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 80 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poireau </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Piment </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gingembre frais </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cm </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Sauce asiatique sucrée </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Coriandre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2382 </CALORIES_kJ>
+				<CALORIES_kcal> 569 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 8.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 2.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 93.6 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 13.4 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 27.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 3.89 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Sauteuse avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+				<UTENSIL>
+				Râpe
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une grande casserole d'eau salée à ébullition pour les nouilles.
+				Ciselez le poireau finement.
+				Faites chauffer ½ cs d'huile d'olive et 75 ml d'eau par personne dans une sauteuse à feu moyen-vif. Faites-y revenir le poireau à couvert 5-7 min. 
+				Remuez régulièrement.
+
+				2.
+				Râpez l'ail et le gingembre. Épépinez, puis ciselez le piment (ça pique ! Dosez-les selon votre goût).
+				Ajoutez l’ail, le gingembre et le piment à la sauteuse. Mélangez.
+				Tamponnez les crevettes avec de l'essuie-tout.
+				Ciselez la coriandre.
+
+				3.
+				Faites cuire les nouilles dans l'eau bouillante 2-3 min. 
+				Égouttez-les et passez-les sous l'eau froide pour éviter qu'elles ne collent entre elles. Égouttez-les à nouveau.
+				Ajoutez les crevettes et la moitié de la coriandre à la sauteuse, puis prolongez la cuisson de 2 min à feu vif.
+				Baissez le feu jusqu'au minimum. Ajoutez la sauce soja et la sauce asiatique sucrée. Remuez quelques secondes. 
+
+				4.
+				Ajoutez les nouilles à la sauteuse et mélangez bien 2 min pour qu'elles s'imprègnent de la sauce.
+				Servez-les dans des assiettes creuses. Saupoudrez du reste de coriandre et ajustez l'assaisonnement en poivre.
+				
+				CONSEIL : Goûtez avant de saler, la sauce soja l'étant déjà !
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				7.5
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r8">
+			<RECIPE_NAME> Aiguillettes de poulet façon teriyaki </RECIPE_NAME>
+			<CATEGORY> Recettes asiatiques </CATEGORY>
+			<DESCRIPTION> La sauce teriyaki est un emblème de la cuisine japonaise ! Cette sauce vient du mot « Teri » qui signifie « lustre » et « Yaki » qui signifie « grill ».
+			Elle est généralement utilisée sur des pièces de viande ou brochettes afin d’apporter un goût sucré et caramélisé. 
+			Ici, nous la cuisinons avec du poulet ainsi que des légumes sautés, le tout saupoudré de gomasio pour rester dans l’esprit japonais et apporter du croquant.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF211116_R204_W01_FR_QFR20161831-6_KB_Main_low-a2e1d894.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Facile </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Graines de sésame
+				</ALLERGEN>
+				<ALLERGEN>
+				Soja
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 70 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Filet de poulet </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poireau </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Carotte </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Purée de gingembre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gomasio </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Sauce Soja </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 20 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de sésame </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 5 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Ciboulette </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Sucre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2687 </CALORIES_kJ>
+				<CALORIES_kcal> 642 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 17.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 83 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 21.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 36.4 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 3.99 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Wok ou sauteuse avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+				<UTENSIL>
+				Râpe
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Bol
+				</UTENSIL>
+				<UTENSIL>
+				Poêle
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une casserole d’eau salée à ébullition et faites-y cuire le riz 12-14 min.
+				Égouttez-le et réservez-le à couvert.
+
+				2.
+				Pendant ce temps, coupez l'oignon en fines demi-lunes. Épluchez et râpez la carotte. 
+				Coupez le poireau en quatre dans l'épaisseur, lavez-le bien, puis ciselez-le finement.
+				Faites chauffer un filet d'huile d'olive à feu moyen-vif dans un wok ou une sauteuse. 
+				Faites-y revenir les légumes 4-6 min à couvert. Remuez régulièrement.
+
+				3.
+				En attendant, ciselez la ciboulette et l'ail séparément.
+				Dans un bol, mélangez l'ail avec la sauce soja (voir CONSEIL), l'huile de sésame et, par personne : 
+				1 cs de sucre, ¼ de sachet de purée de gingembre et 30 ml d'eau.
+				Coupez le poulet en 3 aiguillettes.
+				
+				CONSEIL : Si vous faites attention à votre consommation de sel ou n'aimez pas manger trop salé, 
+				réduisez la quantité de sauce soja et de gomasio et ne salez pas le plat par la suite.
+
+				4.
+				Faites chauffer un filet d'huile d'olive dans une poêle à feu moyen-vif et faites-y cuire le poulet 2-4 min.
+				Ajoutez la sauce et laissez-la réduire 1-2 min à feu vif, ou jusqu'à ce qu'elle soit légèrement nappante (ajoutez un peu d'eau si besoin).
+				Servez le riz dans des assiettes creuses et disposez les légumes et le poulet par-dessus avec la sauce.
+				Saupoudrez de ciboulette et de gomasio.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				8
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r9">
+			<RECIPE_NAME> Salade asiatique de nouilles, poulet et soja </RECIPE_NAME>
+			<CATEGORY> Recettes asiatiques </CATEGORY>
+			<DESCRIPTION> Une salade fraîche aux notes asiatiques : voici notre proposition du jour ! 
+			Préparez une salade de nouilles aux graines de sésame, garnie de poulet ainsi que de concombre et nappée d’une vinaigrette au beurre de cacahuètes. 
+			Des saveurs qui changent et qui vous feront voyager le temps d’un repas.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF_Y23_R214_W19_FR_QFR29803755-5_Main_high-8960ffd7.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 20 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Graines de sésame
+				</ALLERGEN>
+				<ALLERGEN>
+				Soja
+				</ALLERGEN>
+				<ALLERGEN>
+				Arachide
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Nouilles de blé </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 50 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Blanc de poulet </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Graines de sésame </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 5 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Carotte </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Concombre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Beurre de cacahuètes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pot(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Piment </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gingembre frais </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cm </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Sauce Soja </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 10 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de sésame </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 5 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Coriandre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Cassonade </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cc </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre balsamique blanc ou de riz </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cc </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de tournesol </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.75 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2651 </CALORIES_kJ>
+				<CALORIES_kcal> 633 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 29.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 5.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 59.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 14.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 34.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.74 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+				<UTENSIL>
+				Râpe
+				</UTENSIL>
+				<UTENSIL>
+				Poêle
+				</UTENSIL>
+				<UTENSIL>
+				Saladier
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une casserole d’eau salée à ébullition pour les nouilles. 
+				Râpez l'ail ainsi que le gingembre, puis épépinez et émincez le piment (ça pique ! Dosez-les selon votre goût). Ciselez la coriandre.
+				Épluchez et taillez la carotte en rubans avec un éplucheur (râpez-la si vous le préférez).
+				Coupez le concombre en deux dans l’épaisseur, retirez-en les graines avec une cuillère, puis coupez-le en fines demi-lunes.
+
+				2.
+				Faites torréfier les graines de sésame à sec dans une poêle à feu vif jusqu’à ce qu’elles commencent à dorer. Réservez-les hors de la poêle. 
+				Remettez-la à chauffer à feu moyen-vif avec un filet d’huile de tournesol. 
+				Faites-y revenir le poulet, le piment, la moitié de l'ail et du gingembre 3-5 min. 
+				Poivrez et ajoutez la moitié de la sauce soja. Faites revenir 2-3 min de plus, ou jusqu’à ce que le poulet soit blanc et opaque à cœur.
+
+				3.
+				Faites cuire 50 g de nouilles par personne 2-3 min dans la casserole. 
+				Égouttez-les et rincez-les à l’eau froide pour qu’elles ne collent pas entre elles (voir CONSEIL).
+				Mélangez le beurre de cacahuètes (selon votre goût) avec un généreux filet d'huile de tournesol, l'huile de sésame, 
+				le vinaigre balsamique blanc et la cassonade dans un saladier.
+				Ajoutez le reste d’ail, de gingembre et de sauce soja et éventuellement un filet d'eau pour fluidifier la sauce. Mélangez.
+				
+				CONSEIL : Vous pouvez aussi laisser les nouilles tiédir si vous préférez manger ce plat chaud. 
+
+				4.
+				Ajoutez les nouilles à la sauce avec la carotte, le concombre et la moitié des graines de sésame. 
+				Salez, poivrez et mélangez délicatement.
+				Servez la salade dans des bols ou des assiettes creuses. Placez le poulet par-dessus.
+				Saupoudrez avec la coriandre et le reste de graines de sésame.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				8
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r10">
+			<RECIPE_NAME> Riz sauté chinois multi-légumes </RECIPE_NAME>
+			<CATEGORY> Recettes asiatiques </CATEGORY>
+			<DESCRIPTION> Quoi de plus simple à cuisiner que le riz sauté ? À l’instar du fameux riz cantonais chinois, il est idéal pour écouler vos restes du frigo ! 
+			Ici, vous le cuisinerez à la végétarienne avec du broccolini, des champignons et de la carotte. 
+			Le tout est assaisonné de sauce soja, de gingembre et de cébette, sans oublier les cacahuètes pour toujours plus de croquant !
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF_Y23_R212_W18_FR_RFR29804161-6_Main__4high-405eb30e.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 30 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Graines de sésame
+				</ALLERGEN>
+				<ALLERGEN>
+				Soja
+				</ALLERGEN>
+				<ALLERGEN>
+				Arachide
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 65 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Champignons de Paris </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 60 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Carotte </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Concombre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Cébette </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> botte(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Brocoli </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gingembre frais </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cm </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Sauce Soja </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 10 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de sésame </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 10 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Cacahuètes non salées </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Coriandre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oeuf </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2725 </CALORIES_kJ>
+				<CALORIES_kcal> 651 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 28.6 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 71.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 11.1 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 23.6 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.08 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+				<UTENSIL>
+				Wok ou sauteuse
+				</UTENSIL>
+				<UTENSIL>
+				Râpe
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Coupez le broccolini en tronçons de 2 cm.
+				Portez une casserole d’eau salée à ébullition (voir CONSEIL). Faites-y cuire le riz 11-12 min. À mi-cuisson, ajoutez le broccolini. 
+				Égouttez le tout (vous pouvez utiliser une écumoire pour le broccolini) et réservez le riz dans une assiette ou un grand plat pour qu'il refroidisse plus vite.
+				
+				CONSEIL : Si vous avez une bouilloire, vous pouvez y faire chauffer l’eau pour gagner du temps puis la verser dans la casserole.
+
+				2.
+				Nettoyez les champignons avec un essuie-tout humide, puis coupez-les en fines tranches.
+				Épluchez et coupez la carotte en très fines demi-lunes.
+				Ciselez l’ail et la coriandre.
+				Râpez le gingembre (ça pique ! Dosez-le selon votre goût). 
+				Ciselez le blanc et le vert de la cébette séparément.
+
+				3.
+				Faites chauffer un filet d'huile d'olive dans un wok ou une sauteuse à feu moyen-vif. 
+				Faites-y revenir le blanc de la cébette, la carotte et les champignons 2-3 min.
+				Ajoutez la moitié de l'huile de sésame, l'ail et le gingembre. Faites sauter le tout 2-3 min.
+
+				4.
+				À feu vif, ajoutez la moitié du vert de la cébette, le riz, le broccolini, 10 ml de sauce soja par personne et le reste d'huile de sésame au wok.
+				Faites sauter le tout 1-2 min en mélangeant activement.
+
+				5.
+				Réservez le riz dans des assiettes creuses.
+				Remettez le wok à feu vif. Ajoutez-y un filet d’huile d’olive, puis cassez un œuf par personne et cuisez-le au plat 2-3 min. 
+				Salez et poivrez.
+
+				6.
+				Placez l’œuf au plat sur le riz dans les assiettes creuses. 
+				Saupoudrez de coriandre, du reste du vert de la cébette et de cacahuètes.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				12
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r11">
+			<RECIPE_NAME> Curry indien de pois chiches et patate douce </RECIPE_NAME>
+			<CATEGORY> Recettes indiennes </CATEGORY>
+			<DESCRIPTION> Que diriez-vous d'un bon bol de légumes chauds, généreux et très parfumés ? 
+			C'est bien sûr un grand OUI ! Dans ce cas, s'il y a bien une recette à tester sans plus tarder, c'est ce curry veggie aux influences indiennes avec des patates douces, des pois chiches, du gingembre et du curry !
+			Rendez-vous en cuisine…
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF_Y24_R222_W13_FR_RNL2363-15_MAIN_high-090aae0e.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 35 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 35 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Moutarde
+				</ALLERGEN>
+				<ALLERGEN>
+				Céleri
+				</ALLERGEN>
+				
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz</INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 75 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gingembre frais </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cm </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Curry en poudre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epinards </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Patate douce </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Pois chiches </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> paquet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Chair de tomates </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> paquet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Coriandre et menthe </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME>Bouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 75 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de tournesol </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre balsamique blanc ou de riz </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 4215 </CALORIES_kJ>
+				<CALORIES_kcal> 1007 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 35.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 21.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 138.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 24.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 27 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.38 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Râpe
+				</UTENSIL>
+				<UTENSIL>
+				Casserole avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Préparez le bouillon avec de l’eau chaude. Portez une casserole d’eau salée à ébullition pour le riz.
+				Épluchez la patate douce et coupez-la en dés de 1 cm.
+				Ciselez l’oignon et l’ail. Râpez le gingembre (ça pique ! Dosez-le selon votre goût). Égouttez les pois chiches.
+				2.
+				Faites chauffer un filet d’huile de tournesol dans une grande casserole ou une marmite à feu moyen-vif.
+				Faites-y revenir l’ail, l’oignon, le gingembre et ½ sachet de curry par personne (ça pique ! Dosez-le selon votre goût) 1-2 min.
+				Ajoutez les dés de patate douce et faites-les revenir 3-4 min de plus.
+				3.
+				Déglacez en versant ½ cs de vinaigre balsamique blanc (ou de riz) par personne, puis ajoutez le bouillon, la chair de tomates et le lait de coco (voir CONSEIL).
+				Portez le curry à ébullition. Couvrez et laissez mijoter 20-25 min à feu moyen, ou jusqu’à ce que la pointe d’un couteau rentre facilement dans la patate douce. Remuez régulièrement.
+				Pendant ce temps, faites cuire le riz 10-12 min. Égouttez et réservez-le. 
+				4.
+				Effeuillez la menthe et la coriandre.
+				Ciselez-les finement.
+				5.
+				Retirez le couvercle de la casserole et ajoutez-y les pois chiches lorsqu'il reste 5-10 min de cuisson (selon si vous les aimez croquants).
+				Ajoutez également les épinards en plusieurs fois et laissez-les réduire en remuant. Salez et poivrez.
+				6.
+				Répartissez le riz et le curry dans des assiettes creuses.
+				Saupoudrez le tout de menthe et de coriandre.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				13
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r12">
+			<RECIPE_NAME> Curry de poulet aux épinards façon Saag indien avec du riz et des noix de cajou </RECIPE_NAME>
+			<CATEGORY> Recettes indiennes </CATEGORY>
+			<DESCRIPTION> Le «Saag » est un plat traditionnel du nord de l'Inde. 
+			Il est préparé à base de feuilles de légumes verts, le plus souvent des épinards, cuites avec des épices. 
+			Ce curry se différencie des currys plus traditionnels : il a la particularité d'être «semi-sec » (c'est-à dire que seule une petite quantité de liquide est utilisée) ce qui permet aux saveurs de se concentrer. 
+			Bonne dégustation !
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF_Y24_R210_W12_FR_QFR20944-1_Main_high-56f51844.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 20 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Facile </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Moutarde
+				</ALLERGEN>
+				<ALLERGEN>
+				Céleri
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait (contient du lactose)
+				</ALLERGEN>
+				<ALLERGEN>
+				Fruits à coque
+				</ALLERGEN>
+				
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz</INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 75 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Purée de gingembre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Curry en poudre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epinards </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Filet de poulet </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Noix de cajou concassés </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Concentré de tomates </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Yaourt à la grecque </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 50 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de tournesol </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2691 </CALORIES_kJ>
+				<CALORIES_kcal> 643 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 20.6 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 4.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 73 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 6.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 40.1 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 0.82 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Sauteuse avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une grande casserole d'eau salée à ébullition pour le riz.
+				Coupez les filets de poulet en dés de 1½ cm.
+				Faites chauffer un filet d'huile de tournesol dans une sauteuse à feu moyen-vif. Faites-y revenir le poulet 3-5 min, ou jusqu'à ce qu'il soit doré et qu'il ne soit plus rosé à cœur. Salez et poivrez.
+				Réservez le poulet hors de la sauteuse et conservez-la pour l'étape 3.
+				2.
+				En attendant, ciselez l'ail et l'oignon.
+				Faites cuire le riz 12-14 min dans la casserole d'eau bouillante. 
+				Égouttez et réservez-le dans la casserole. Ajoutez-y ¼ sachet de purée de gingembre par personne (ça pique ! Dosez-le selon votre goût) et mélangez.
+				3.
+				Faites à nouveau chauffer un filet d'huile de tournesol dans la sauteuse du poulet à feu moyen-vif. Faites-y revenir l'oignon 3-4 min.
+				Ajoutez l'ail et, par personne : ½ sachet de curry (ça pique ! Dosez-le selon votre goût) et ¼ sachet de purée de gingembre. Poursuivez la cuisson 1 min. 
+				Versez ¼ sachet de concentré de tomates par personne et déchirez les épinards par-dessus. 
+				Laissez flétrir les épinards 3-5 min à couvert. Remuez de temps en temps.
+				4.
+				Quand les épinards sont flétris, ôtez le couvercle et ajoutez le poulet, le yaourt ainsi que 1 cs d'eau par personne (voir CONSEIL) dans la sauteuse.
+				Mélangez 1-2 min à feu moyen, ou jusqu'à ce que la sauce soit nappante. Rectifiez l'assaisonnement en sel et poivre, selon votre goût.
+				Servez dans les assiettes d’un côté le riz au gingembre et de l’autre le saag de poulet. Parsemez de noix de cajou.
+				
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				15
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r13">
+			<RECIPE_NAME> Curry jaune de lieu, épinards et coco </RECIPE_NAME>
+			<CATEGORY> Recettes indiennes </CATEGORY>
+			<DESCRIPTION> Saviez-vous que l’utilisation d’épinards dans les plats de curry est une pratique courante dans la cuisine indienne ? 
+			En effet, les épinards sont très polyvalents et apportent une texture et une saveur uniques aux plats de curry. 
+			Aujourd’hui, cuisinez-les avec du lieu et du lait de coco.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_400,q_30,w_800/hellofresh_s3/image/HF_Y23_R221_W51_FR_TFR15974-2_Main__11high-67ad3245.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 1 </HOURS>
+				<MINUTES> 10 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Facile </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Poisson
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz</INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 75 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Carotte </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Curry jaune </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epinards </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Citron </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Filet de lieu noir </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lait de coco </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME>Cube de bbouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2755 </CALORIES_kJ>
+				<CALORIES_kcal> 659 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 24.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 15.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 78.4 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 11.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 27.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.66 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Râpe
+				</UTENSIL>
+				<UTENSIL>
+				Spatule
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une casserole d'eau salée à ébullition pour le riz.
+				Épluchez et coupez la carotte en fines demi-lunes.
+				Coupez le lieu en dés de 3 cm de côté.
+				Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers. 
+				2.
+				Épluchez l'ail et l'oignon, puis coupez-le en 4. Placez-les dans la cuve. Hachez 45 secondes | vitesse moyenne. Avec une sptaule, poussez l'ail et l'oignon hachés dans le fond de la cuve.
+				Ajoutez la carotte et ½ sachet de curry (ça pique ! Dosez-le selon le goût) par personne. Faites rissoler 2 min | 120°C | sens inverse | vitesse minimum.
+				Déchirez les épinards, émiettez le cube de bouillon et ajoutez le lait de coco dans la cuve.
+				3.
+				Placez les dés de lieu dans le grand panier vapeur. Ajoutez un filet d'huile d'olive, du sel, du poivre et la moitié des zestes de citron.
+				Fixez le grand panier vapeur sur le robot.  
+				4.
+				Faites mijoter le tout 15 min | 100°C | sens inverse | vitesse minimum.
+				À la fin de la cuisson, vérifiez que le lieu soit complètement cuit : sa chair ne doit plus être translucide. 
+				Prolongez la cuisson de 2-3 min si nécessaire. 
+				5.
+				Pendant ce temps, faites cuire le riz dans la casserole 12-14 min.
+				Égouttez-le, puis réservez-le.
+				Mélangez délicatement le lieu à la sauce curry dans la cuve avec une spatule. 
+				Ajustez l'assaisonnement en sel et poivre. Ajoutez une pincée de zestes de citron (selon votre goût). 
+				6.
+				Répartissez le riz et le curry de lieu dans des assiettes creuses. 
+				Servez avec ¼ de citron par personne.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				14
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r14">
+			<RECIPE_NAME> Curry indien de pois chiches et épinards </RECIPE_NAME>
+			<CATEGORY> Recettes indiennes </CATEGORY>
+			<DESCRIPTION> Qui ne raffole pas de curry ? 
+			Il en existe de nombreuses versions. Ainsi, aujourd'hui, vous préparez un curry végétarien et parfumé à base de patate douce, de lait de coco crémeux, d'épinards et de yaourt à la grecque. 
+			Il est servi avec un œuf au plat et de la coriandre fraîche.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1900/hellofresh_s3/image/HF_Y24_R209_W09_FR_RNL0090-25_Main_low-9d098c14.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 30 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 30 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Lait
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz</INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 35 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Patate douce </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Curry jaune </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Epinards </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Patate douce </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Carotte </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> piece(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lait de Coco </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 90 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Yaourt à la grecque </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 25 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Piment </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Coriandre  </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Cube bouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+								<INGREDIENT>
+					<INGREDIENT_NAME> Oeuf </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile de tournesol </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Beurre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2873 </CALORIES_kJ>
+				<CALORIES_kcal> 687 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 34.1 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 19.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 73.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 18.6 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 19.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.49 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Wok ou sauteuse avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Poele
+				</UTENSIL>
+				<UTENSIL>
+				Casserole avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une casserole d'eau à ébullition et faites-y cuire le riz 12-14 min.
+				Égouttez-le, puis réservez-le à couvert.
+				2.
+				Pendant ce temps, ciselez l'oignon et l'ail.
+				Épépinez et ciselez le piment (ça pique ! Dosez-le selon votre goût).
+				Épluchez et coupez la carotte en fines rondelles de 5 mm. Épluchez la patate douce et coupez-la en dés de 1 cm.
+				Secouez le paquet de lait de coco jusqu’à ce que les éventuels grumeaux se décomposent.
+				3.
+				Faites chauffer un filet d'huile de tournesol dans un wok ou une sauteuse à feu moyen et faites-y revenir l’oignon, l’ail et le piment 2 min.
+				Ajoutez la carotte et ½ sachet de curry par personne (ça pique ! Dosez-le selon votre goût).
+				Faites cuire 3-5 min de plus. Ajoutez 1 cs d'eau par personne. Salez et poivrez.
+				4.
+				Ajoutez la patate douce et le lait de coco au wok, puis émiettez ¼ cube de bouillon par personne au-dessus.
+				Portez à ébullition, puis laissez mijoter 10-15 min à couvert et à feu moyen-doux, ou jusqu'à ce que la pointe d'un couteau y rentre facilement.
+				En attendant, effeuillez la coriandre. Ciselez-la ou gardez les feuilles entières si vous le préférez.
+				5.
+				Lorsque les légumes sont presque cuits, faites fondre une noix de beurre dans une poêle. Faites-y cuire un œuf au plat par personne 2 min. Salez et poivrez.
+				Pendant ce temps, déchirez les épinards au-dessus du curry dans le wok et laissez-les réduire. Si besoin, faites-le en plusieurs fois.
+				6.
+				Servez le riz dans des assiettes creuses, puis disposez le curry et l'œuf par-dessus.
+				Garnissez avec le yaourt et la coriandre.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				11
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r15">
+			<RECIPE_NAME> Curry doré au poulet et mangue </RECIPE_NAME>
+			<CATEGORY> Recettes indiennes </CATEGORY>
+			<DESCRIPTION> Connaissez-vous le secret d'un bon curry ? 
+			Et bien, nous avons décidé de vous le révéler aujourd'hui : il s'agit d'une sauce onctueuse et savoureuse à en donner envie de lécher la casserole (ou le bol du robot de cuisine !). 
+			Celle-ci est composée de mangue, de lait de coco, de gingembre et bien sûr, de curry. Vous nous en direz des nouvelles !
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_400,q_30,w_800/hellofresh_s3/image/HF211223_R213_W06_FR_RFR29803938-1_MB_Main_yellow_curry_low-70133222.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 15 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 30 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Moutarde
+				</ALLERGEN>
+				<ALLERGEN>
+				Céleri
+				</ALLERGEN>
+				
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Riz</INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 65 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gousse d'ail </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Gingembre frais </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cm </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Curry en poudre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Graines de courge </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 5 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Mangue </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lait de Coco </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 60 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Filet de poulet </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Coriandre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>	
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME>Bouillon de Volaille </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 50 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Beurre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2518 </CALORIES_kJ>
+				<CALORIES_kcal> 602 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 18.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 12.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 71.7 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 13.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 35.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 1.13 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Avec le robot, ciselez la coriandre 3 secondes | vitesse moyenne-haute. Réservez-la à part.
+				Épluchez l’ail, l’oignon et le gingembre. Coupez l’oignon en quatre, puis hachez-le avec l'ail et le gingembre 5 secondes | vitesse moyenne.
+				Coupez la mangue en deux et taillez sa chair en dés.
+				Coupez le poulet en dés.
+				2.
+				Portez une grande casserole d'eau salée à ébullition pour le riz.
+				Dans le robot, ajoutez le beurre et 1 cc de curry par personne (ça pique ! Dosez-le selon votre goût). Faites revenir le tout 3 min | 120°C | mode sens inverse | vitesse minimum.				
+				3.
+				Faites cuire le riz 12-14 min.
+				Égouttez-le et réservez-le.
+				4.
+				Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent, puis ajoutez-le au robot. Ajoutez 50 ml d'eau chaude par personne, puis émiettez le cube de bouillon au-dessus.
+				Poivrez, puis laissez mijoter 4 min | 100°C | mode sens inverse | vitesse minimum.
+				5.
+				Ajoutez le poulet et la mangue au robot et faites cuire 6 min | 100°C | mode sens inverse | vitesse minimum. Le poulet ne doit plus être rose à cœur.
+				Goûtez, puis salez et poivrez (selon votre goût).
+				6.
+				Servez le riz dans des assiettes creuses et le curry par-dessus.
+				Saupoudrez de coriandre et de graines de courge.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				11
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r16">
+			<RECIPE_NAME> Saucisse de Toulouse et purée au cantal AOP </RECIPE_NAME>			
+			<CATEGORY> Recettes francaises </CATEGORY>
+			<DESCRIPTION> La traditionnelle saucisse-purée, un grand classique des cantines et des bistrots... 
+						  Elle est ici revisitée grâce au cantal et du thym séché qui lui redonnent une nouvelle jeunesse ! 
+						  Dégustez-la avec des champignons de Paris pour toujours plus de saveurs !
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF230203_R12_W12_NO_V13257-1_Main-3_classic_high-80ab7204.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 15 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Facile </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Lait(contient du lactose)
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Pomme de terre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 200 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Champignons de Paris </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 125 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Cantal AOP </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 30 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Saucisse de Toulouse </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Thym sèché </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME>Beurre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Lait </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> filet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 3081 </CALORIES_kJ>
+				<CALORIES_kcal> 736 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 47	 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 23.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 46.3 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 6.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 31.5 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.69 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Casserole avec couvercle
+				</UTENSIL>
+				<UTENSIL>
+				Essuie-tout
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+				<UTENSIL>
+				Eplucheur
+				</UTENSIL>
+				<UTENSIL>
+				Presse Purée
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Portez une casserole d’eau salée à ébullition.
+				Épluchez, puis coupez les pommes de terre en morceaux de taille égale. Faites-les cuire dans la casserole 12-15 min. 
+				Réservez un peu d’eau de cuisson (environ ¼ de louche pour 2 personnes), puis égouttez-les et réservez-les.
+				LE SAVIEZ-VOUS ? Un simple couvercle sur la casserole permet d'économiser 30% d'énergie, voire 70% dans le cas des liquides. 
+				De plus, il permet à votre eau de bouillir plus rapidement !
+				
+				2.
+				Ciselez l'oignon. Nettoyez les champignons avec un essuie-tout humide, puis coupez-les en tranches.
+				Piquez les saucisses avec une fourchette.
+				Faites chauffer une poêle à sec et à feu moyen-vif. Faites-y revenir les saucisses 5-6 min à couvert en remuant régulièrement.
+				Ajoutez les champignons et l'oignon, salez, poivrez et laissez cuire 6-8 min de plus à couvert. Ajoutez un petit filet d'eau si le fond accroche.
+				Coupez le cantal en petit dés ou râpez-le. 
+				
+				3.
+				Écrasez les pommes de terre avec un presse-purée.
+				Ajoutez ½ cs de beurre par personne ainsi qu'un filet de lait et un peu d’eau de cuisson pour l'onctuosité.
+				Ajoutez ensuite le cantal et ¼ sachet de thym séché par personne. Salez, poivrez et mélangez jusqu’à ce que le fromage soit bien incorporé.
+				
+				4.
+				Servez la purée dans les assiettes avec la saucisse, l'oignon et les champignons.
+				Ajoutez ½ cs de beurre par personne à la poêle et faites-le fondre jusqu'à ce qu'il devienne légèrement brun et dégage une odeur de noisette.
+				Formez un puits dans la purée et versez-y le beurre fondu.
+				Ajustez l'assaisonnement en sel et en poivre.
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				14
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r17">
+			<RECIPE_NAME> Lieu en croûte de noisettes et poireaux braisés </RECIPE_NAME>
+			<CATEGORY> Recettes francaises </CATEGORY>
+			<DESCRIPTION> Plongez dans la nostalgie et le réconfort en dégustant ces poireaux braisés, plat particulièrement adapté aux hivers rigoureux. 
+						  Nous y avons ajouté un poisson en croûte de noisettes, servi avec de l'aïoli et de la salade, pour un plat complet avec peu de glucides.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF_Y24_R212_W14_FR_RFR20675-1_Main__5high-d01653c1.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 25 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 40 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Facile </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Gluten
+				</ALLERGEN>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Noisette
+				</ALLERGEN>
+				<ALLERGEN>
+				Oeuf
+				</ALLERGEN>
+				<ALLERGEN>
+				Moutarde
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poireau </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce(s)	 </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Chapelure panko </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 10 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Filet de lieu de noir </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> pièce </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Aïoli </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 20 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Salade </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Ciboulette </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Burrata </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+					<INGREDIENT>
+					<INGREDIENT_NAME> Noisettes grillées </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+					</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Bouillon de légumes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 100 </NUMBER>
+						<UNIT_MEASURE> ml </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Moutarde </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cc </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME>Beurre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre balsamique noir </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 2172 </CALORIES_kJ>
+				<CALORIES_kcal> 519 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 38 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 7.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 18.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 7.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 23.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 3.68 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Sauteuse
+				</UTENSIL>
+				<UTENSIL>
+				Passoire
+				</UTENSIL>
+				<UTENSIL>
+				Bol
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Préchauffez le four à 220°C (200°C chaleur tournante).
+				Préparez le bouillon avec de l'eau chaude.
+				Coupez le poireau en tronçons de 3-5 cm environ.
+
+				2.
+				Faites fondre une noix de beurre dans une grande sauteuse à feu moyen-vif (voir CONSEIL). Faites-y revenir les tronçons de poireau 4-6 min. Ajoutez le bouillon.
+				Baissez le feu sur moyen, couvrez et faites cuire 10-14 min, ou jusqu'à ce qu'ils soient fondants (ajoutez un petit peu d'eau si elle s'évapore complètement). 
+				Égouttez-les si nécessaire et réservez-les à couvert jusqu'au service.
+
+				3.
+				En attendant, concassez finement les noisettes.
+				Dans un bol, mélangez les noisettes avec par personne : 10 g de chapelure et ¼ sachet de thym. Salez légèrement et poivrez.
+
+				4.
+				Épongez le lieu noir avec de l'essuie-tout. Badigeonnez-le d'un filet d'huile d'olive.
+				Disposez-le sur une plaque de cuisson recouverte de papier sulfurisé, et ajoutez le mélange de chapelure et de noisettes par-dessus. 
+				Pressez fermement pour que la chapelure accroche, arrosez d'un filet d'huile d'olive.
+				Enfournez le lieu noir 10-15 min, ou jusqu'à ce que la croûte soit dorée et le poisson cuit à cœur (sa chair doit être d'un blanc opaque).
+				
+				5.
+				Pendant ce temps, ciselez la ciboulette.
+				Dans un saladier, préparez une vinaigrette avec un filet d'huile d'olive et de vinaigre balsamique, une pointe de moutarde, du sel et du poivre.
+				Au moment de servir, ajoutez la salade et mélangez.
+				
+				6.
+				Servez le poisson en croûte et les poireaux braisés dans les assiettes.
+				Parsemez le poireau de ciboulette ciselée.
+				Ajoutez la salade et l'aïoli à côté.
+				
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				9
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>
+		<RECIPE idr = "r18">
+			<RECIPE_NAME> Salade de poires caramélisées au bleu </RECIPE_NAME>
+			<CATEGORY> Recettes francaises </CATEGORY>
+			<DESCRIPTION> Une délicieuse salade aux poires caramélisées et au fromage bleu avec un zeste de balsamique. Les pommes de terre sont rôties au four, 
+						  ce qui leur donne un goût agréable et doux. 
+						  Si vous n’avez pas de four, faites-les cuire à la poêle avant de les servir avec la salade. 
+						  Le fromage utilisé dans ce plat contient de la présure animale.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF220321_R210_W16_FR_RNL1176-11_MB_Main_Reshot_low-8a72f00f.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 35 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 40 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Noix
+				</ALLERGEN>
+				<ALLERGEN>
+				Fruits à coque
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait (contient du lactose)
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Pomme de terre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 250 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poire </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 2 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Salade </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Fromage bleu </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 35 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Salade </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Noix concassées </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Oignon </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+					<INGREDIENT>
+					<INGREDIENT_NAME> Concombre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+					</INGREDIENT>	
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Beurre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre de vin blanc </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre balsamique noir </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 3153 </CALORIES_kJ>
+				<CALORIES_kcal> 754 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 38 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 7.9 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 18.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 7.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 23.2 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 3.68 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Plaque de cuisson
+				</UTENSIL>
+				<UTENSIL>
+				Epluchueur
+				</UTENSIL>
+				<UTENSIL>
+				Saladier
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Préchauffez le four à 220°C (200°C chaleur tournante).
+				Lavez les pommes de terre et coupez-les en 8. Disposez-les sur une plaque recouverte de papier sulfurisé et arrosez-les d'un filet d’huile d’olive et de ½ sachet de thym séché par personne. Salez, poivrez et mélangez.
+				Enfournez-les 35-40 min, ou jusqu’à ce qu'elles soient dorées et fondantes à cœur.
+
+				2.
+				Faites chauffer une poêle à feu moyen-vif et faites-y dorer les noix à sec. Réservez-les.
+				Pendant ce temps, coupez les poires en 2, retirez le trognon, puis coupez-les en huit dans la longueur.
+				Hachez très finement l'oignon.
+				Coupez le bleu en petits dés. 
+
+				3.
+				Faites fondre le beurre avec un filet d'huile olive dans la poêle des noix et faites-y revenir les poires à feu moyen-vif 16-20 min, ou jusqu’à ce qu'elles commencent à dorer. Si elles sont encore dures, couvrez-les et prolongez un peu la cuisson.
+				Ajoutez le vinaigre balsamique noir, puis retirez les poires de la poêle. Réservez-les et laissez-les refroidir un peu.	
+				
+				4.Lavez le concombre et taillez-le en rubans avec un éplucheur (voir CONSEIL).
+				Mélangez-les avec l'oignon (si vous ne l'avez pas cuit) et le vinaigre balsamique blanc dans un saladier. 
+				Salez et poivrez selon votre goût. Réservez.
+
+				5.Juste avant de servir, ajoutez la salade au saladier et mélangez.
+				Poivrez généreusement et ajoutez un filet d’huile d’olive.
+				
+				6.
+				Servez les pommes de terre rôties dans les assiettes.
+				Disposez la salade à côté et garnissez-la avec les poires, le bleu et les noix.
+				
+			</COOKING_INSTRUCTIONS>
+			<UNIT_PRICE>
+				<VALUE>
+				10
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>
+		</RECIPE>	
+		<RECIPE idr = "r19">
+			<RECIPE_NAME> Tarte à l'endive façon tatin </RECIPE_NAME>
+			<CATEGORY> Recettes francaises </CATEGORY>
+			<DESCRIPTION> Voici une version salée de la classique tarte tatin aux pommes, avec des endives caramélisées, 
+						  du fromage frais aux herbes et une salade croquante garnie de graines de courge torréfiées. 
+						  La tarte peut être dégustée chaude ou à température ambiante. 
+						  Gourmande à souhait... On en redemande ! Le fromage utilisé dans ce plat contient de la présure animale.
+			</DESCRIPTION>
+			<IMAGE><![CDATA[https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF220923_R210_W45_FR_RFR29804292-1_KB_Main_low-8a15a50c.jpg ]]> </IMAGE>
+			<PREPARATION_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 20 </MINUTES>
+			</PREPARATION_TIME>
+			<TOTAL_TIME>
+				<HOURS> 0 </HOURS>
+				<MINUTES> 40 </MINUTES>
+			</TOTAL_TIME>
+			<DIFFICULTY> Intermédiaire </DIFFICULTY>
+			<ALLERGENS>
+				<ALLERGEN>
+				Blé
+				</ALLERGEN>
+				<ALLERGEN>
+				Gluten
+				</ALLERGEN>
+				<ALLERGEN>
+				Lait (contient du lactose)
+				</ALLERGEN>
+			</ALLERGENS>
+			<INGREDIENTS_DELIVERED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Pâte à tarte </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Ciboulette </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.25 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Salade </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Fromage frais aux herbes </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 50 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Salade </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 0.5 </NUMBER>
+						<UNIT_MEASURE> sachet(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Endive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 2 </NUMBER>
+						<UNIT_MEASURE> pièce(s) </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_DELIVERED>
+			<INGREDIENTS_NOT_INCLUDED>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Huile d'olive </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Beurre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 10 </NUMBER>
+						<UNIT_MEASURE> g </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Sucre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cs </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Vinaigre de vin rouge ou de cidre </INGREDIENT_NAME>
+					<QUANTITY>
+						<NUMBER> 1 </NUMBER>
+						<UNIT_MEASURE> cc </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+				<INGREDIENT>
+					<INGREDIENT_NAME> Poivre et sel </INGREDIENT_NAME>
+					<QUANTITY>
+						<UNIT_MEASURE> selon le goût </UNIT_MEASURE>
+					</QUANTITY>
+				</INGREDIENT>
+			</INGREDIENTS_NOT_INCLUDED>
+			<NUTRITIONAL_INFORMATION>
+				<CALORIES_kJ> 3780 </CALORIES_kJ>
+				<CALORIES_kcal> 903 </CALORIES_kcal>
+				<FAT>
+					<NUMBER> 62.1 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</FAT>
+				<SATURATED_FAT>
+					<NUMBER> 34.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SATURATED_FAT>
+				<CARBS>
+					<NUMBER> 65 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</CARBS>
+				<OF_WHICH_SUGARS>
+					<NUMBER> 19.8 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</OF_WHICH_SUGARS>
+				<PROTEIN>
+					<NUMBER> 14.4 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</PROTEIN>
+				<SALT>
+					<NUMBER> 2.08 </NUMBER>
+					<UNIT_MEASURE> g </UNIT_MEASURE>
+				</SALT>
+			</NUTRITIONAL_INFORMATION>
+			<UTENSILS>
+				<UTENSIL>
+				Plat à four
+				</UTENSIL>
+				<UTENSIL>
+				Spatule
+				</UTENSIL>
+				<UTENSIL>
+				Saladier
+				</UTENSIL>
+				<UTENSIL>
+				Plat avec couvercle
+				</UTENSIL>
+			</UTENSILS>
+			<COOKING_INSTRUCTIONS>
+				1.
+				Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !
+				Gardez la pâte à tarte au réfrigérateur jusqu’au dernier moment, ainsi, elle sera plus facile à manipuler.
+				Coupez les endives en deux dans l'épaisseur. Enlevez la partie dure de la base en y prélevant un cône et éventuellement les premières feuilles si elles sont abimées.
+
+				2.
+				Préchauffez le four à 220°C (200°C chaleur tournante).
+				Faites fondre le beurre dans une grande poêle à feu moyen. Ajoutez-y ½ cs de sucre par personne et remuez jusqu'à ce qu'il soit presque dissous.
+				Ajoutez les endives, salez et poivrez. Faites-les revenir 5 min, ou jusqu'à ce qu'elles soient enrobées de beurre et un peu flétries sur les bords.
+				Retournez-les ensuite côté coupé vers le bas, couvrez et laissez cuire 10 min, ou jusqu'à ce qu'elles soient ramollies et dorées.
+
+				3.
+				Beurrez légèrement un plat à four rond et saupoudrez-le avec ½ cs de sucre par personne.
+				Avec une spatule, récupérez les endives une par une pour les placer au fond du plat, côté coupé vers le bas. Veillez à ce qu'elles ne forment qu'une seule couche.
+				Arrosez-les d'un filet de vinaigre de vin (ou vinaigre de cidre). Salez et poivrez.
+				Recouvrez les endives avec la pâte en repliant les bords sur les côtés du plat. Piquez-la sur toute sa surface avec une fourchette..	
+				
+				4.
+				Enfournez la tarte environ 15 min, ou jusqu'à ce que la pâte soit gonflée et dorée.
+				Pendant ce temps, ciselez la ciboulette. 
+				Juste avant de servir, faites une vinaigrette en mélangeant l’huile d’olive avec le vinaigre de vin dans un saladier. Salez et poivrez.
+				Ajoutez la salade et remuez.
+
+				5.
+				Lorsque la tarte est cuite, laissez-la reposer 5 min.
+				Passez un couteau le long du bord du plat pour en décoller la pâte. Placez une assiette de service par-dessus.
+				Avec des gants de cuisine, saisissez fermement l'assiette et le plat à four en les retournant rapidement.
+				Soulevez délicatement le plat à four et remettez en place les endives qui ont pu se déplacer pendant la manipulation.
+				
+				6.
+				Saupoudrez la tarte de ciboulette et coupez-la en parts.
+				Servez-les dans les assiettes. Garnissez chaque part d’une belle cuillère de fromage frais aux herbes.
+				Servez avec la salade à côté. 
+			</COOKING_INSTRUCTIONS>	
+			<UNIT_PRICE>
+				<VALUE>
+				11
+				</VALUE>
+				<CURRENCY>
+				EUR
+				</CURRENCY>
+			</UNIT_PRICE>			
+		</RECIPE>
+	</RECIPES>
+
+	<REVIEWS>
+		<REVIEW idccref = "c1" idrrref = "r1">
+			<STARS> 4 </STARS>
+			<COMMENT> "Woah, les penne à la crème avec des lardons et des épinards,
+			c'est comme une explosion de saveurs dans ma bouche !
+			J'ai découvert cette recette il y a peu et depuis, je ne peux plus m'en passer.
+			La crème apporte cette onctuosité parfaite, les lardons ajoutent ce côté salé et savoureux,
+			tandis que les épinards donnent une touche de fraîcheur et de légèreté.
+			C'est simple à faire et tellement réconfortant, surtout en cette saison !
+			Un plat qui mérite d'être dans toutes les assiettes, croyez-moi !" </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c4" idrrref = "r1">
+			<STARS> 5 </STARS>
+			<COMMENT> "Cette recette de Penne à la crème, lardons et épinards est tout simplement divine !
+			La combinaison des pâtes al dente avec la richesse de la crème,
+			l'arôme fumé des lardons et la fraîcheur des épinards est absolument irrésistible.
+			Je la recommande vivement à quiconque cherche à ravir ses papilles avec un plat réconfortant et délicieux." </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c5" idrrref = "r3">
+			<STARS> 4 </STARS>
+			<COMMENT> "Ce Risotto de poulet et champignons est une délicieuse option pour un repas réconfortant.
+			La combinaison du poulet tendre avec les champignons crémeux dans un riche risotto est tout simplement savoureuse." </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c7" idrrref = "r3">
+			<STARS> 3 </STARS>
+			<COMMENT> "Ce Risotto de poulet et champignons est vraiment sympa pour un repas de tous les jours.
+			Le poulet et les champignons se marient bien dans ce plat crémeux.
+			Mais, il pourrait être un peu mieux avec quelques petits ajustements." </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c3" idrrref = "r4">
+			<STARS> 2 </STARS>
+			<COMMENT> "Ces Lasagnes al ragù della nonna Gisella étaient malheureusement une déception totale.
+			La sauce était fade et la texture de la viande dans le ragù était un peu caoutchouteuse.
+			Même avec le charme de la recette traditionnelle, je ne peux pas recommander ces lasagnes,
+			ce qui explique la note de seulement 2 étoiles sur 5." </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c8" idrrref = "r4">
+			<STARS> 2 </STARS>
+			<COMMENT> "Ces Lasagnes al ragù della nonna Gisella ne sont malheureusement pas à la hauteur de leur réputation.
+			Bien que la sauce soit savoureuse, la texture globale était un peu trop molle." </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c5" idrrref = "r5">
+			<STARS> 5 </STARS>
+			<COMMENT> "Ce plat de Spaghetti avec un ragù bianco de bœuf est une véritable révélation !
+			Une recette à adopter sans hésitation pour des repas pleins de délice et de satisfaction." </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c7" idrrref = "r5">
+			<STARS> 4 </STARS>
+			<COMMENT> "J'ai testé les spaghetti au ragù bianco de bœuf et je suis agréablement surpris.
+			La sauce est crémeuse et parfumée, et la viande est bien tendre.
+			Un plat simple et efficace qui plaira à coup sûr." </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c10" idrrref = "r6">
+			<STARS> 4 </STARS>
+			<COMMENT> "Délicieux curry végétarien avec une texture croquante des cajous et un œuf parfaitement cuit. 
+			Les épinards ajoutent une saveur subtile mais délicieuse. Je le referai !" </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c3" idrrref = "r7">
+			<STARS> 4 </STARS>
+			<COMMENT> "Les nouilles sautées sont délicieuses avec les crevettes et la sauce sucrée-salée. 
+			La coriandre fraîche ajoute une belle fraîcheur. Une recette simple mais délicieuse !" </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c9" idrrref = "r7">
+			<STARS> 5 </STARS>
+			<COMMENT> "Les nouilles sont parfaitement cuites et la sauce sucrée-salée les rend si savoureuses ! 
+			Les crevettes sont tendres et délicieuses. Une recette que je referai souvent !" </COMMENT>
+		</REVIEW>
+		<REVIEW idccref = "c10" idrrref = "r8">
+			<STARS> 2 </STARS>
+			<COMMENT> "Les aiguillettes de poulet sont tendres et savoureuses avec la sauce teriyaki. 
+			Les légumes poêlés ajoutent une belle couleur et une texture croquante. 
+			Délicieux avec le riz et le gomasio !" </COMMENT>
+		</REVIEW> 
+		<REVIEW idccref = "c10" idrrref = "r9">
+			<STARS> 2 </STARS>
+			<COMMENT> "La salade était un peu sèche et manquait de saveur. La vinaigrette était trop épaisse pour mon goût. 
+			Peut-être ajouter plus de légumes pour l'humidité." </COMMENT>
+		</REVIEW> 
+		<REVIEW idccref = "c4" idrrref = "r8">
+			<STARS> 5 </STARS>
+			<COMMENT> "Rcette simple, claire et détaillée, mais surtout savoureuse.
+			On en veut plus des comme ça ! " </COMMENT>
+		</REVIEW> 
+	</REVIEWS>
+	
+	<DELIVERY_EMPLOYEES>
+		<DELIVERY_EMPLOYEE idd = "d1" >
+			<FULL_NAME>
+				<FORENAME>
+				James
+				</FORENAME>
+				<NAME>
+				Anderson
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			jamesanderson@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0662894972
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d2" >
+			<FULL_NAME>
+				<FORENAME>
+				Peter
+				</FORENAME>
+				<NAME>
+				Johnson
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			peterjohnson@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0785453269
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d3" >
+			<FULL_NAME>
+				<FORENAME>
+				Jean-Luc 
+				</FORENAME>
+				<NAME>
+				Dubois
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			jeanlucdubois@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0612345678
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d4" >
+			<FULL_NAME>
+				<FORENAME>
+				Pierre
+				</FORENAME>
+				<NAME>
+				Dupont
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			pierredupont@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0634567890
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d5" >
+			<FULL_NAME>
+				<FORENAME>
+				Elodie
+				</FORENAME>
+				<NAME>
+				Martin 
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			elodiemartin@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0623456789
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d6" >
+			<FULL_NAME>
+				<FORENAME>
+				Kwame 
+				</FORENAME>
+				<NAME>
+				Amadi
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			kwameamadi@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0656789012
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d7" >
+			<FULL_NAME>
+				<FORENAME>
+				Alejandro
+				</FORENAME>
+				<NAME>
+				Hernandez
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			alejandrohernandez@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0656789012
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d8" >
+			<FULL_NAME>
+				<FORENAME>
+				Ahmed
+				</FORENAME>
+				<NAME>
+				Benali
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			ahmedbenali@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0754321098
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d9" >
+			<FULL_NAME>
+				<FORENAME>
+				Fatou
+				</FORENAME>
+				<NAME>
+				Diop
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			fatoudiop@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0667890123
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+		<DELIVERY_EMPLOYEE idd = "d10" >
+			<FULL_NAME>
+				<FORENAME>
+				Chloé
+				</FORENAME>
+				<NAME>
+				Girard
+				</NAME>
+			</FULL_NAME>
+			<EMAIL>
+			chloegirard@foodbox.com
+			</EMAIL>
+			<PHONE>
+			0787654321
+			</PHONE>
+		</DELIVERY_EMPLOYEE>
+	</DELIVERY_EMPLOYEES>
+	
+	<ORDERS>
+		<ORDER ido="o1" idcref = "c1" iddref = "d1">
+			<CONTENT>
+				<RECIPE_CHOICE idrref = "r1"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r4"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				2
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>1</ADDRESS_NUMBER>
+				<ROAD> avenue Blaise Pascal</ROAD>
+				<CITY> Paris </CITY>
+				<POSTAL_CODE>70123</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>1</ADDRESS_NUMBER>
+				<ROAD> avenue Blaise Pascal</ROAD>
+				<CITY> Paris</CITY>
+				<POSTAL_CODE>70123</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2024-02-11
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-02-15
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Delivered
+			</STATUS>
+			<PRICE>
+				<VALUE> 36 </VALUE>
+				<CURRENCY> EUR </CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o2" idcref = "c4" iddref = "d1">
+			<CONTENT>
+				<RECIPE_CHOICE idrref = "r8"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r1"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				3
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>2</ADDRESS_NUMBER>
+				<ROAD> avenue Maryse Bastie</ROAD>
+				<CITY> Rouen</CITY>
+				<POSTAL_CODE>76800</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>2</ADDRESS_NUMBER>
+				<ROAD> avenue avenue maryse bastie</ROAD>
+				<CITY> Rouen</CITY>
+				<POSTAL_CODE>76800</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2024-01-02
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-01-05
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Delivered
+			</STATUS>
+			<PRICE>
+				<VALUE> 48 </VALUE>
+				<CURRENCY> EUR </CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o3" idcref = "c5" iddref = "d3">
+			<CONTENT>
+				<RECIPE_CHOICE idrref = "r3"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r17"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r5"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r14"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				1
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>12</ADDRESS_NUMBER>
+				<ROAD> place des faienciers</ROAD>
+				<CITY> Rouen</CITY>
+				<POSTAL_CODE>76000</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>12</ADDRESS_NUMBER>
+				<ROAD> place des faienciers</ROAD>
+				<CITY> Rouen</CITY>
+				<POSTAL_CODE>76000</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2023-08-10
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-08-14
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Shipped
+			</STATUS>
+			<PRICE>
+				<VALUE> 35 </VALUE>
+				<CURRENCY> EUR </CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o4" idcref = "c3" iddref = "d2">
+			<CONTENT>
+				<RECIPE_CHOICE idrref = "r7"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				2
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>82</ADDRESS_NUMBER>
+				<ROAD> rue marat</ROAD>
+				<CITY> Ivry</CITY>
+				<POSTAL_CODE>94200</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>82</ADDRESS_NUMBER>
+				<ROAD> rue marat </ROAD>
+				<CITY> Ivry </CITY>
+				<POSTAL_CODE>94200</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2023-05-08
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2023-05-11
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Delivered
+			</STATUS>
+			<PRICE>
+				<VALUE> 15 </VALUE>
+				<CURRENCY> EUR </CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o5" idcref = "c3" iddref = "d4">
+			<CONTENT>
+				<RECIPE_CHOICE idrref = "r1"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r4"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r18"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				2
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>4</ADDRESS_NUMBER>
+				<ROAD> quai de la revolution</ROAD>
+				<CITY> alfortville </CITY>
+				<POSTAL_CODE>94140</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>4</ADDRESS_NUMBER>
+				<ROAD> quai de la revolution</ROAD>
+				<CITY> alfortville</CITY>
+				<POSTAL_CODE>94140</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2023-09-08
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2023-09-13
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Processing
+			</STATUS>
+			<PRICE>
+				<VALUE> 56 </VALUE>
+				<CURRENCY> EUR </CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o6" idcref = "c2" iddref = "d6">
+			<CONTENT>
+				<RECIPE_CHOICE idrref = "r1"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref = "r4"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				2
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>93</ADDRESS_NUMBER>
+				<ROAD> avenue jean jaurès</ROAD>
+				<CITY> Le Petit-Quevilly</CITY>
+				<POSTAL_CODE>76140</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>93</ADDRESS_NUMBER>
+				<ROAD> avenue jean jaurès</ROAD>
+				<CITY> Le Petit-Quevilly</CITY>
+				<POSTAL_CODE>76140</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2024-02-11
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-02-15
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Delivered
+			</STATUS>
+			<PRICE>
+				<VALUE> 36 </VALUE>
+				<CURRENCY> EUR </CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o7" idcref="c7" iddref = "d9">
+			<CONTENT>
+				<RECIPE_CHOICE idrref="r3"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref="r5"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				4
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>8</ADDRESS_NUMBER>
+				<ROAD>rue de la République</ROAD>
+				<CITY>Marseille</CITY>
+				<POSTAL_CODE>13005</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>8</ADDRESS_NUMBER>
+				<ROAD>rue de la République</ROAD>
+				<CITY>Marseille</CITY>
+				<POSTAL_CODE>13005</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2024-03-02
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-03-07
+			</DATE_OF_RECEIPT>
+			<STATUS>In Transit</STATUS>
+			<PRICE>
+				<VALUE>60</VALUE>
+				<CURRENCY>EUR</CURRENCY>
+			</PRICE>
+        </ORDER>
+		<ORDER ido="o8" idcref="c9" iddref = "d9">
+			<CONTENT>
+				<RECIPE_CHOICE idrref="r7"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				1
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>15</ADDRESS_NUMBER>
+				<ROAD>avenue des Champs-Élysées</ROAD>
+				<CITY>Paris</CITY>
+				<POSTAL_CODE>75008</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>15</ADDRESS_NUMBER>
+				<ROAD>avenue des Champs-Élysées</ROAD>
+				<CITY>Paris</CITY>
+				<POSTAL_CODE>75008</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2024-03-10
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-03-15
+			</DATE_OF_RECEIPT>
+			<STATUS>Processing</STATUS>
+			<PRICE>
+				<VALUE>7.5</VALUE>
+				<CURRENCY>EUR</CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o9" idcref="c10" iddref = "d8">
+			<CONTENT>
+				<RECIPE_CHOICE idrref="r6"></RECIPE_CHOICE>
+				<RECIPE_CHOICE idrref="r9"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				3
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>25</ADDRESS_NUMBER>
+				<ROAD>rue Avelane</ROAD>
+				<CITY>Bordeaux</CITY>
+				<POSTAL_CODE>33000</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>25</ADDRESS_NUMBER>
+				<ROAD>rue Avelane</ROAD>
+				<CITY>Bordeaux</CITY>
+				<POSTAL_CODE>33000</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2024-03-20
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-03-25
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Processing
+			</STATUS>
+			<PRICE>
+				<VALUE>54</VALUE>
+				<CURRENCY>EUR</CURRENCY>
+			</PRICE>
+		</ORDER>
+		<ORDER ido="o10" idcref="c8" iddref = "d10">
+			<CONTENT>
+				<RECIPE_CHOICE idrref="r4"></RECIPE_CHOICE>
+			</CONTENT>
+			<SERVING_SIZE>
+				2
+			</SERVING_SIZE>
+			<DELIVERY_ADDRESS>
+				<ADDRESS_NUMBER>10</ADDRESS_NUMBER>
+				<ROAD>avenue de la Liberté</ROAD>
+				<CITY>Marseille</CITY>
+				<POSTAL_CODE>13001</POSTAL_CODE>
+			</DELIVERY_ADDRESS>
+			<BILLING_ADDRESS>
+				<ADDRESS_NUMBER>10</ADDRESS_NUMBER>
+				<ROAD>avenue de la Liberté</ROAD>
+				<CITY>Marseille</CITY>
+				<POSTAL_CODE>13001</POSTAL_CODE>
+			</BILLING_ADDRESS>
+			<DATE_OF_ORDER>
+				2024-04-05
+			</DATE_OF_ORDER>
+			<DATE_OF_RECEIPT>
+				2024-04-10
+			</DATE_OF_RECEIPT>
+			<STATUS>
+				Shipped
+			</STATUS>
+			<PRICE>
+				<VALUE>20</VALUE>
+				<CURRENCY>EUR</CURRENCY>
+			</PRICE>
+		</ORDER>
+	</ORDERS>
+</RECIPE_BOX_DATABASE>
+				

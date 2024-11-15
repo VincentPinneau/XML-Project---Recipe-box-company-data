@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="RECIPE_BOX_DATABASE">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" ref="CUSTOMERS"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="RECIPES"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="REVIEWS"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="DELIVERY_EMPLOYEES"/>
+	    <xs:element minOccurs="1" maxOccurs="1" ref="ORDERS"/>
+    </xs:sequence>
+  </xs:complexType>
+	
+	<xs:key name="keycustomer">
+		<xs:selector xpath="CUSTOMERS/CUSTOMER"/>
+        <xs:field xpath="@idc"/>
+	</xs:key>
+	<xs:keyref name="refcustomer1" refer="keycustomer">
+		<xs:selector xpath="ORDERS/ORDER" />
+        <xs:field xpath="@idcref"/>
+	</xs:keyref>
+  <xs:keyref name="refcustomer2" refer="keycustomer">
+		<xs:selector xpath="REVIEWS/REVIEW" />
+        <xs:field xpath="@idccref"/>
+	</xs:keyref>
+	
+	<xs:key name="keyrecipe">
+		<xs:selector xpath="RECIPES/RECIPE"/>
+        <xs:field xpath="@idr"/>
+	</xs:key>
+	<xs:keyref name="refrecipe1" refer="keyrecipe">
+		<xs:selector xpath="ORDERS/ORDER/CONTENT/RECIPE_CHOICE" />
+        <xs:field xpath="@idrref"/>
+	</xs:keyref>
+  <xs:keyref name="refrecipe2" refer="keyrecipe">
+		<xs:selector xpath="REVIEWS/REVIEW" />
+        <xs:field xpath="@idrrref"/>
+	</xs:keyref>
+	
+	<xs:key name="keyemployee">
+		<xs:selector xpath="DELIVERY_EMPLOYEES/DELIVERY_EMPLOYEE"/>
+        <xs:field xpath="@idd"/>
+	</xs:key>
+	<xs:keyref name="refemployee" refer="keyemployee">
+		<xs:selector xpath="ORDERS/ORDER" />
+        <xs:field xpath="@iddref"/>
+	</xs:keyref>
+	
+  </xs:element>
+  
+ <xs:element name="CUSTOMERS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="CUSTOMER"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="CUSTOMER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="FULL_NAME"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="EMAIL"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="PHONE"/>
+      </xs:sequence>
+      <xs:attribute name="idc" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  
+ <xs:element name="FULL_NAME">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="FORENAME"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NAME"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="FORENAME" type="xs:string"/>
+  <xs:element name="NAME" type="xs:string"/>
+  
+  <xs:element name="EMAIL" type="xs:string"/>
+  <xs:element name="PHONE" type="xs:integer"/>
+  
+  <xs:element name="RECIPES">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="RECIPE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RECIPE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="RECIPE_NAME"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CATEGORY"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="DESCRIPTION"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="IMAGE"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="PREPARATION_TIME"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="TOTAL_TIME"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="DIFFICULTY"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="ALLERGENS"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="INGREDIENTS_DELIVERED"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="INGREDIENTS_NOT_INCLUDED"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NUTRITIONAL_INFORMATION"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UTENSILS"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="COOKING_INSTRUCTIONS"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="UNIT_PRICE"/>
+      </xs:sequence>
+        <xs:attribute name="idr" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="RECIPE_NAME" type="xs:string"/>
+  <xs:element name="CATEGORY" type="xs:string"/>
+  <xs:element name="DESCRIPTION" type="xs:string"/>
+  <xs:element name="IMAGE" type="xs:string"/>
+  <xs:element name="PREPARATION_TIME">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="HOURS"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="MINUTES"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TOTAL_TIME">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="HOURS"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="MINUTES"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HOURS" type="xs:integer"/>
+  <xs:element name="MINUTES" type="xs:integer"/>
+  <xs:element name="DIFFICULTY" type="xs:string"/>
+  <xs:element name="ALLERGENS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ALLERGEN"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ALLERGEN" type="xs:string"/>
+  <xs:element name="INGREDIENTS_DELIVERED">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="INGREDIENT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="INGREDIENTS_NOT_INCLUDED">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="INGREDIENT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="INGREDIENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="INGREDIENT_NAME"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="QUANTITY"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="INGREDIENT_NAME" type="xs:string"/>
+  <xs:element name="QUANTITY">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UNIT_MEASURE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NUMBER" type="xs:decimal"/>
+  <xs:element name="UNIT_MEASURE" type="xs:string"/>
+  <xs:element name="NUTRITIONAL_INFORMATION">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CALORIES_kJ"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CALORIES_kcal"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="FAT"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="SATURATED_FAT"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CARBS"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="OF_WHICH_SUGARS"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="PROTEIN"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="SALT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CALORIES_kJ" type="xs:integer"/>
+  <xs:element name="CALORIES_kcal" type="xs:integer"/>
+  <xs:element name="FAT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UNIT_MEASURE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SATURATED_FAT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UNIT_MEASURE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CARBS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UNIT_MEASURE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OF_WHICH_SUGARS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UNIT_MEASURE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PROTEIN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UNIT_MEASURE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SALT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="UNIT_MEASURE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UTENSILS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="UTENSIL"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UTENSIL" type="xs:string"/>
+  <xs:element name="COOKING_INSTRUCTIONS" type="xs:string"/>
+  <xs:element name="UNIT_PRICE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="VALUE"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CURRENCY"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VALUE" type="xs:decimal"/>
+  <xs:element name="CURRENCY" type="xs:string"/>
+  
+<xs:element name="REVIEWS">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="REVIEW"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+<xs:element name="REVIEW">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" ref="STARS"/>
+      <xs:element maxOccurs="1" ref="COMMENT"/>
+    </xs:sequence>
+      <xs:attribute name="idccref" use="required" type="xs:string"/>
+      <xs:attribute name="idrrref" use="required" type="xs:string"/>
+    </xs:complexType>
+ </xs:element>
+
+<xs:element name="STARS">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element> 
+<xs:element name="COMMENT" type="xs:string"/>
+
+<xs:element name="DELIVERY_EMPLOYEES">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="DELIVERY_EMPLOYEE"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+<xs:element name="DELIVERY_EMPLOYEE">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" ref="FULL_NAME"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="EMAIL"/>
+      <xs:element minOccurs="1" maxOccurs="1" ref="PHONE"/>
+    </xs:sequence>
+      <xs:attribute name="idd" use="required" type="xs:string"/>
+  </xs:complexType>
+</xs:element>
+
+  <xs:element name="ORDERS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="ORDER"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+   <xs:element name="ORDER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CONTENT"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="SERVING_SIZE"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="DELIVERY_ADDRESS"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="BILLING_ADDRESS"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="DATE_OF_ORDER"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="DATE_OF_RECEIPT"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="STATUS"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="PRICE"/>
+      </xs:sequence>
+      <xs:attribute name="ido" use="required" type="xs:string"/>
+	  <xs:attribute name="idcref" use="required" type="xs:string"/>
+	  <xs:attribute name="iddref" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CONTENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="RECIPE_CHOICE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RECIPE_CHOICE">
+    <xs:complexType>
+      <xs:attribute name="idrref" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+   <xs:element name="SERVING_SIZE" type="xs:integer"/>
+  <xs:element name="DELIVERY_ADDRESS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="ADDRESS_NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="2" ref="ROAD"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CITY"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="POSTAL_CODE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ADDRESS_NUMBER" type="xs:integer"/>
+  <xs:element name="ROAD" type="xs:string"/>
+  <xs:element name="CITY" type="xs:string"/>
+  <xs:element name="POSTAL_CODE" type="xs:integer"/>
+  <xs:element name="BILLING_ADDRESS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="ADDRESS_NUMBER"/>
+        <xs:element minOccurs="1" maxOccurs="2" ref="ROAD"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CITY"/>
+		<xs:element minOccurs="1" maxOccurs="1" ref="POSTAL_CODE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DATE_OF_ORDER" type="xs:date"/>
+  <xs:element name="DATE_OF_RECEIPT" type="xs:date"/>
+  <xs:element name="STATUS" type="xs:string"/>
+  <xs:element name="PRICE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="VALUE"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="CURRENCY"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  
+  </xs:schema>
+  
